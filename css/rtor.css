@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#top_bar {
+    background-color: #CCC;
+    
+}
+#top_bar {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    height: 1.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0.25em;
+}
+
+#tabs { height: 100%; }
+
+/* I resorted to a fair amount of hand-tweaking to get the controls to
+ * lay out smoothly.  This does not likely qualify as "best practice",
+ * but it does produce consistent results across browsers using JQueryUI
+ */
+
+/*#magic_tab, #torus_tab { */
+.gtab.ui-tabs-panel.ui-widget-content.ui-corner-bottom {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+.gtab-content {
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.gtab-controls {
+    position: absolute;
+    width: 100%;
+    margin: 2px;
+    padding-top: 4px;
+    left: 2px;  /* Ugh - 0px works in WebKit... */
+    bottom: 0px;
+}
+
+#torus_rand {
+    margin-top: 7px;
+}
+
+#spikesLabel {
+    top: 2px;
+    margin-top: 7px;
+    margin-right: 6px;
+}
+
+/* Style for home-made "spinner" widget control buttons */
+.upcount:hover, .downcount:hover {
+    background-color: #DDD;
+    cursor: pointer;
+}
+
+/* http://stackoverflow.com/questions/1032914/how-to-make-a-div-to-fill-a-remaining-horizontal-space-a-very-simple-but-annoyi */
+
+#magic_slider {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#push { height: 1em;}
+
+/* Add additional meta tag for IE9 */
+</style>
+<meta host-equiv="X-UA-Compatible" content="IE=Edge">
+<style>
