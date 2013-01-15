@@ -150,7 +150,8 @@ $(function() {
         // Re-draw with previously set values
         if (typeof( this.savensides ) != "undefined")
         {
-            this.drawTorus( Number($("#nsides").val()),
+            this.drawTorus( //Number($("#nsides").spinner( "value" )), // JQueryUI
+                            Number($("#nsides").val()),                // JQuery
                             Number($("#nrot").val()),
                             $("#spikes").prop('checked'),
                             this.saveNumLines );
@@ -165,8 +166,9 @@ $(function() {
         Torus.random();
     });
 
-    $("#nsides,#nrot").change( function () {
-        Torus.redraw();
+    $("#nsides,#nrot").spinner( {
+        change: function( event, ui ) { Torus.redraw(); },
+        stop: function( event, ui ) { Torus.redraw(); }
     });
 
     $("#spikes").button().click(function() {
@@ -290,6 +292,7 @@ $(function() {
     if ($.browser.webkit)
         $(".gtab-controls").css("left", "0px");
 
+/*
     // Code to manually implement "spinner" objects.
     // These will be available in JQueryUI 1.9
     $(".upcount,.downcount").click( function( eventObj ) {
@@ -310,5 +313,5 @@ $(function() {
         $("#" + vID).val( number );
         redrawTabContent( $("#tabs").tabs( 'option', 'selected' ) );
     });
-
+*/
 });
