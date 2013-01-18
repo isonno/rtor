@@ -13,7 +13,11 @@
 		<link href="css/rtor.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div id="top_bar">RTor - Drawing Test</div>
+<div id="top_bar">RTor - Drawing Test
+    <span style="float:right">
+      <a href="https://github.com/isonno/rtor" target="_blank">Sources</a>
+    </span>
+</div>
 <div id="tabs">
     <ul>
         <li><a href="#magic-gtab">Magic</a></li>
@@ -48,19 +52,23 @@
             <table border="0" cellspacing="2" cellpadding="0" width="100%">
                 <tr>
                     <td>
-                        <button id="torus_rand">Random</button>
+                      <button class="torctl" id="torus_rand">Random</button>
                     </td>
                     <td align="center">
-                      <label for="nsides"># of sides:</label>
-                      <input id="nsides" name="value" size="1" min="2" max="8" />
+		      <div class="torctl">
+			<label for="nsides"># of sides:</label>
+			<input id="nsides" name="value" size="1" min="2" max="8" />
+		      </div>
                     </td>
                     <td align="center">
-                      <label for="nrot"># of rotate:</label>
-                      <input id="nrot" name="value" size="1" />
+		      <div class="torctl">
+			<label for="nrot"># of rotate:</label>
+			<input id="nrot" name="value" size="1" />
+		      </div>
                     </td>
                     <td align="RIGHT">
-                        <input type="checkbox" id="spikes" >
-                        <label for="spikes" id="spikesLabel">Spikes</label>
+                      <input type="checkbox" id="spikes" />
+                      <label for="spikes" id="spikesLabel">Spikes</label>
                     </td>
                 </tr>
             <table>

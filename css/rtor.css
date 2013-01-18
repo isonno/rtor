@@ -49,7 +49,7 @@
     bottom: 0px;
 }
 
-#torus_rand {
+.torctl {	/* Center the spinner ctl/labels vertically */
     margin-top: 7px;
 }
 
@@ -59,11 +59,12 @@
     margin-right: 6px;
 }
 
-/* Style for home-made "spinner" widget control buttons */
+/* Style for home-made "spinner" widget control buttons
 .upcount:hover, .downcount:hover {
     background-color: #DDD;
     cursor: pointer;
 }
+*/
 
 /* http://stackoverflow.com/questions/1032914/how-to-make-a-div-to-fill-a-remaining-horizontal-space-a-very-simple-but-annoyi */
 
