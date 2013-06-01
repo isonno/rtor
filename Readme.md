@@ -7,4 +7,6 @@ The actual demo *might* keep you amused for thirty seconds or so...but the code
 does show how to use various JQueryUI elements, and serves as worked example of an 
 HTML5 graphics application. I'm also using it as a way to become familiar with Github.
 
+You can find a ready-to-run version of the code at [saccade.com/rtor](http://www.saccade.com/rtor).
+
 -J. Peterson, Jan '13
