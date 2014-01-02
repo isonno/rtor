@@ -258,7 +258,7 @@ $(function() {
         var mysteryGap = 90;
         var topHeight = $("#top_bar").height();
         // Since the content is initially empty, we need to force it to
-        // occupy the screenn height
+        // occupy the screen height
         $(getID("content")).height(docHeight - (tabHeight + topHeight + mysteryGap));
         // Force the canvas to fill the content
         // (it defaults to 300x150...useless!)
