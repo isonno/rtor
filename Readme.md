@@ -10,3 +10,5 @@ HTML5 graphics application. I'm also using it as a way to become familiar with G
 You can find a ready-to-run version of the code at [saccade.com/rtor](http://www.saccade.com/rtor).
 
 -J. Peterson, Jan '13
+
+Footnote Sep '14: Rtor actually made the top 20 in the "Hypnotic" category on [PointlessSites.com](http://www.pointlesssites.com/hypnotic.asp).  Dubious honor, yes, but I'll take it anyway.
