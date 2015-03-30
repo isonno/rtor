@@ -180,7 +180,7 @@ $(function() {
     ///////////////////////////////
 
     var Magic = new StringArt( "magic" );
-    var kMagicSliderSteps = 360;  // Should be "const", but that chokes IE9
+    var kMagicSliderSteps = 720;  // Should be "const", but that chokes IE9
     
     // Pass in a value from 0..1
     Magic.drawMagic = function( angle )
