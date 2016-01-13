@@ -8,6 +8,7 @@ does show how to use various JQueryUI elements, and serves as worked example of 
 HTML5 graphics application. I'm also using it as a way to become familiar with Github.
 
 You can find a ready-to-run version of the code at [saccade.com/rtor](http://www.saccade.com/rtor).
+The interesting JavaScript code is [here](https://github.com/isonno/rtor/blob/master/js/rtor.js).
 
 -J. Peterson, Jan '13
 
